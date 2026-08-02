@@ -1,8 +1,26 @@
 aid: the-exploration-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-exploration-company.png
 name: The Exploration Company
-description: 'The Exploration Company is a company surfaced as a portfolio company of bessemer-venture-partners,
-  eqt-ventures, partech and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'The Exploration Company (TEC) is a European deep-tech space startup founded
+  in July 2021 by Hélène Huby and a team of aerospace engineers from Airbus and ArianeGroup.
+  Headquartered in Munich, Germany with sites in Bordeaux, Oberpfaffenhofen, Italy, France,
+  Houston, and the MENA region, TEC develops Nyx, a family of modular, reusable, in-orbit
+  refuelable spacecraft designed to carry cargo — and eventually humans — to low Earth
+  orbit, lunar orbit, and the Moon, serving space stations and long-distance research
+  missions. The company has raised a €40.5M Series A and a €150M Series B and is a
+  certified B Corp. It exposes no public developer API; interfaces are provided to
+  payload customers via a Payload User''s Guide.'
 url: https://raw.githubusercontent.com/api-evangelist/the-exploration-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Deep Tech
+- Space
+- Aerospace
+- Spacecraft
+- Reusable Spacecraft
+- Space Transportation
+- Cargo Capsule
+- Munich
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.exploration.space/
+- type: About
+  url: https://www.exploration.space/about
+- type: Blog
+  url: https://www.exploration.space/blog
+- type: Support
+  url: https://www.exploration.space/contact
+- type: TermsOfService
+  url: https://www.exploration.space/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/12177334
+- type: LinkedIn
+  url: https://www.linkedin.com/company/exploration-company/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
